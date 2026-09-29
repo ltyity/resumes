@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        /* 简单美化，可自行修改css */
+        body {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+            font-family: system-ui, sans‑serif;
+            line-height: 1.7;
+        }
+        pre {
+            background:#f6f8fa;
+            padding:12px;
+            overflow-x:auto;
+        }
+        code {
+            background:#f1f3f5;
+            padding:2px 4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+
+    <!-- 使用本地marked.js，不要写cdn地址 -->
+    <script src="./marked.umd.js"></script>
+
+    <script>
+        // 加载你的md文件，修改这里的文件名可以切换不同md
+        fetch("./SHOW_CV.md")
+            .then(res => {
+                if (!res.ok) throw new Error("md文件读取失败，检查路径大小写");
+                return res.text();
+            })
+            .then(rawMd => {
+                // 将md转为html填充页面
+                document.querySelector("#main").innerHTML = marked.parse(rawMd);
+            })
+            .catch(err => {
+                document.querySelector("#main").innerText = "加载失败：" + err.message;
+            });
+    </script>
+</body>
+</html>

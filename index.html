@@ -32,7 +32,7 @@
 
     <script>
         // 加载你的md文件，修改这里的文件名可以切换不同md
-        fetch("./SHOW_CV.md")
+        fetch("./SHOW_CV" + ".md")
             .then(res => {
                 if (!res.ok) throw new Error("md文件读取失败，检查路径大小写");
                 return res.text();

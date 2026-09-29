@@ -58,6 +58,9 @@
             .then(rawMd => {
                 // 将md转为html填充页面
                 document.querySelector("#main").innerHTML = marked.parse(rawMd);
+                document.querySelectorAll('a[href^="mailto:"]').forEach(el => {
+                    el.outerHTML = el.textContent;
+                });
             })
             .catch(err => {
                 document.querySelector("#main").innerText = "加载失败：" + err.message;

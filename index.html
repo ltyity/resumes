@@ -41,16 +41,30 @@
             /* white-space: pre-wrap; */
         }
     </style>
+    <style>
+        .markdown-body {
+        font-size: 14px;
+        line-height: 1.6;
+        }
+        .markdown-body h2 {
+        margin: 1.2em 0 0.6em;
+        font-size: 1.4em;
+        }
+        .markdown-body h3 {
+        margin: 1em 0 0.5em;
+        font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-    <div id="main"></div>
+    <div id="main" class="markdown-body"></div>
 
     <!-- 使用本地marked.js，不要写cdn地址 -->
     <script src="./marked.umd.js"></script>
 
     <script>
         // 加载你的md文件，修改这里的文件名可以切换不同md
-        fetch("./SHOW_CV" + ".md")
+        fetch("./test_engineer/site_full_show" + ".md")
             .then(res => {
                 if (!res.ok) throw new Error("md文件读取失败，检查路径大小写");
                 return res.text();

@@ -18,10 +18,19 @@
     <style>
         /* 简单美化，可自行修改css */
         body {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 0 20px;
+            /* max-width: 900px; */
+            /* margin: 30px auto;
+            padding: 0 20px; */
             line-height: 1.7;
+        }
+        pre {
+            background:#f6f8fa;
+            padding:12px;
+            overflow-x:auto;
+        }
+        code {
+            background:#f1f3f5;
+            padding:2px 4px;
         }
     </style>
     <style>
@@ -31,15 +40,48 @@
             /* white-space: pre-wrap; */
         }
     </style>
+    <style>
+        .markdown-body {
+        /* font-size: 14px; */
+        line-height: 1.6;
+        }
+        .markdown-body ul {
+        margin: 0;
+        }
+        .markdown-body blockquote {
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+        .markdown-body p {
+        margin: 0;
+        }
+        .markdown-body h2 {
+        margin: 0;
+        font-size: 1.2em;
+        }
+        .markdown-body h3 {
+        margin: 0;
+        font-size: 1.0em;
+        }
+    </style>
 </head>
 <body>
+    <div style="float:right; margin:0 0 12px 16px;">
+    <!-- 头像：只限制最大宽高，不强制写死宽高，防止拉伸 -->
+    <img src="./assets/avatar_online_resume.jpg" alt="个人头像" 
+        style="max-width:130px; max-height:300px;
+                border-radius:8px;
+                object-fit:cover; /* 重点！裁剪填充，不会拉伸 */
+                display:block;">
+    </div>
     <div id="main" class="markdown-body"></div>
+
     <!-- 使用本地marked.js，不要写cdn地址 -->
     <script src="./marked.umd.js"></script>
 
     <script>
         // 加载你的md文件，修改这里的文件名可以切换不同md
-        fetch("./nav" + ".md")
+        fetch("./test_engineer/site_full_show" + ".md")
             .then(res => {
                 if (!res.ok) throw new Error("md文件读取失败，检查路径大小写");
                 return res.text();
@@ -55,6 +97,5 @@
                 document.querySelector("#main").innerText = "加载失败：" + err.message;
             });
     </script>
-</iframe>
 </body>
 </html>

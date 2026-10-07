@@ -16,3 +16,43 @@ body {
     /* white-space: pre-wrap; */
     font-size: 9pt
 }
+
+
+.markdown-body {
+    /* font-size: 14px; */
+    line-height: 1.6;
+}
+
+/* 缩进设置 */
+.markdown-body ul,
+.markdown-body ol {
+    /* 21pt 就是28px，pt值还是3的倍数这样换算px就是个整数 因为px就是1+1/3倍的pt */
+    padding-left: 21pt;
+}
+.markdown-body blockquote {
+    margin-left: 21pt;
+}
+
+
+.markdown-body ul {
+    margin: 0;
+}
+
+.markdown-body blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.markdown-body p {
+    margin: 0;
+}
+
+.markdown-body h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.markdown-body h3 {
+    margin: 0;
+    font-size: 1.0em;
+}

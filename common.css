@@ -9,3 +9,9 @@
     font-style: normal; */
     font-display: swap;
 }
+
+body {
+    font-family: "Sarasa Mono SC";
+    /* pre‑wrap：保留空格换行，长文本自动换行 */
+    /* white-space: pre-wrap; */
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "SourceHanSansCN";
+    src:
+        local("Source Han Sans CN"),
+        local("SourceHanSansCN"),
+        local("Noto Sans SC"),
+        url("./SourceHanSansCN-Regular.subset.woff2") format("woff2");
+    /* font-weight: normal;
+    font-style: normal; */
+    font-display: swap;
+}

@@ -4,9 +4,9 @@
 
 ## 个人信息
 
-- 性 别：男&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;年 龄：26
-- 手 机：15544858816&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;邮 箱：tianyuan_li@outlook.com
-- 状 态：离职，随时到岗&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;岗 位：测试工程师
+- <div style="display: inline-block; width: 120pt;">性 别：男</div>年 龄：26
+- <div style="display: inline-block; width: 120pt;">手 机：15544858816</div>邮 箱：tianyuan_li@outlook.com
+- <div style="display: inline-block; width: 120pt;">状 态：离职，随时到岗</div>岗 位：测试工程师
 
 ## 教育经历
 

@@ -4,9 +4,9 @@
 
 ## 个人信息
 
-- <div style="display: inline-block; width: 120pt;">性 别：男</div>年 龄：26
-- <div style="display: inline-block; width: 120pt;">手 机：15544858816</div>邮 箱：tianyuan_li@outlook.com
-- <div style="display: inline-block; width: 120pt;">状 态：离职，随时到岗</div>岗 位：测试工程师
+- <div style="display: inline-block; width: 160pt;">性 别：男</div>年 龄：26
+- <div style="display: inline-block; width: 160pt;">手 机：15544858816</div>邮 箱：tianyuan_li@outlook.com
+- <div style="display: inline-block; width: 160pt;">状 态：离职，随时到岗</div>岗 位：测试工程师
 
 ## 教育经历
 

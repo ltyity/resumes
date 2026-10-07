@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
     <style>
-        /* 定义字体 */
+
         @font-face {
-        font-family: "Sarasa Mono SC";
-        src: url("./SarasaMonoSC-Regular.subset.woff2") format("woff2");
-        font-weight: normal;
-        font-style: normal;
-        font-display: block;
-        /* font-display: swap; 先显示后备字体，加载完再切换，避免空白 */
-    }
+            font-family: "SourceHanSansCN";
+            src:
+                local("Source Han Sans CN"),
+                local("SourceHanSansCN"),
+                local("Noto Sans SC"),
+                url("./SourceHanSansCN-Regular.subset.woff2") format("woff2");
+            /* font-weight: normal;
+            font-style: normal; */
+            font-display: swap;
+        }
     </style>
     <style>
         /* 简单美化，可自行修改css */
@@ -26,7 +29,7 @@
     </style>
     <style>
         body {
-            font-family: "Sarasa Mono SC";
+            font-family: "SourceHanSansCN";
             /* pre‑wrap：保留空格换行，长文本自动换行 */
             /* white-space: pre-wrap; */
         }

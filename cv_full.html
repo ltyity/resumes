@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
     <link rel="stylesheet" href="./common.css">
-    </style>
     <style>
         pre {
             background:#f6f8fa;
@@ -19,7 +18,7 @@
     </style>
 </head>
 <body>
-    <div style="float:right; margin:0 0 12px 16px;">
+    <div id="avatar" style="float:right; margin:0 0 12px 16px;">
     <!-- 头像：只限制最大宽高，不强制写死宽高，防止拉伸 -->
     <img src="./assets/avatar_online_resume.jpg" alt="个人头像" 
         style="max-width:88px; max-height:300px;
@@ -33,6 +32,15 @@
     <script src="./marked.umd.js"></script>
 
     <script>
+        // 控制头像展示
+        const urlParams = new URLSearchParams(window.location.search);
+        const avatarHidden = urlParams.get('avatar_hidden');
+        const avatarWrap = document.getElementById("avatar");
+        if (avatarHidden === '1') {
+            avatarWrap.hidden = true;
+        } else {
+            avatarWrap.hidden = false;
+        }
         // 加载你的md文件，修改这里的文件名可以切换不同md
         fetch("./test_engineer/site_full_show" + ".md")
             .then(res => {

@@ -3,5 +3,5 @@
 
 
 ## 打印简历：
-- [打印完整简历](/cv_full.html "完整简历")
-- [打印无照片简历](/cv_noavatar.html "无照片简历")
+- [打印完整简历](/cv_full.html?md=test_engineer___site_full_show.md "完整简历")
+- [打印无照片简历](/cv_full.html?md=test_engineer___site_full_show.md&avatar_hidden=1 "无照片简历")

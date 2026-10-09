@@ -32,8 +32,8 @@
     <script src="./marked.umd.js"></script>
 
     <script>
-        // 控制头像展示
         const urlParams = new URLSearchParams(window.location.search);
+        // 控制头像展示
         const avatarHidden = urlParams.get('avatar_hidden');
         const avatarWrap = document.getElementById("avatar");
         if (avatarHidden === '1') {
@@ -41,8 +41,13 @@
         } else {
             avatarWrap.hidden = false;
         }
+        // 控制加载的md文件
+        let md_params = urlParams.get('md');
+        let parts = md_params.split('___');
+        let result = parts.join('/');
+        let md_path = `./${result}`;
         // 加载你的md文件，修改这里的文件名可以切换不同md
-        fetch("./test_engineer/site_full_show" + ".md")
+        fetch(md_path)
             .then(res => {
                 if (!res.ok) throw new Error("md文件读取失败，检查路径大小写");
                 return res.text();

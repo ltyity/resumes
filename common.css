@@ -28,12 +28,10 @@ body {
 .markdown-body ul,
 .markdown-body ol {
     /* 21pt 就是28px，pt值还是3的倍数这样换算px就是个整数 因为px就是1+1/3倍的pt */
-    padding-left: 9pt;
-    /* padding-left: 21pt; */
+    padding-left: 15pt;
 }
 .markdown-body blockquote {
-    margin-left: 9pt;
-    /* margin-left: 21pt; */
+    margin-left: 15pt;
 }
 
 

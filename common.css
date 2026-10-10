@@ -34,11 +34,6 @@ body {
     margin-left: 15pt;
 }
 
-.markdown-body hr {
-  border: none;
-  border-top: 3pt solid #222; /* 用边框，不要background */
-  margin: 16px 0;
-}
 
 .markdown-body ul {
     margin: 0;
@@ -54,13 +49,13 @@ body {
 }
 
 .markdown-body h2 {
-    margin: 0;
+    margin: 3pt 0 3pt 0;
     font-size: 10.5pt;
     border-left: 4px solid #222;
     padding-left: 6pt;
 }
 
 .markdown-body h3 {
-    margin: 0;
-    font-size: 1.0em;
+    margin: 1.5pt 0 1.5pt 0;
+    font-size: 9.6pt;
 }

@@ -34,6 +34,11 @@ body {
     margin-left: 15pt;
 }
 
+.markdown-body hr {
+  border: none;
+  border-top: 3pt solid #222; /* 用边框，不要background */
+  margin: 16px 0;
+}
 
 .markdown-body ul {
     margin: 0;

@@ -14,7 +14,8 @@ body {
     font-family: "SourceHanSansCN";
     /* pre‑wrap：保留空格换行，长文本自动换行 */
     /* white-space: pre-wrap; */
-    font-size: 9pt
+    font-size: 9pt;
+    /* letter-spacing: 0.3pt; */
 }
 
 
@@ -27,10 +28,12 @@ body {
 .markdown-body ul,
 .markdown-body ol {
     /* 21pt 就是28px，pt值还是3的倍数这样换算px就是个整数 因为px就是1+1/3倍的pt */
-    padding-left: 21pt;
+    padding-left: 9pt;
+    /* padding-left: 21pt; */
 }
 .markdown-body blockquote {
-    margin-left: 21pt;
+    margin-left: 9pt;
+    /* margin-left: 21pt; */
 }
 
 
@@ -49,7 +52,9 @@ body {
 
 .markdown-body h2 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 10.5pt;
+    border-left: 4px solid #222;
+    padding-left: 6pt;
 }
 
 .markdown-body h3 {

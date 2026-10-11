@@ -10,7 +10,7 @@
 
 ## 教育经历
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>重庆邮电大学&ensp;&ensp;四年全日制本科&ensp;数据科学与大数据专业&ensp;计算机系</h3>
 <span>2019.09 – 2023.06</span>
 </div>
@@ -36,7 +36,7 @@
 
 ## 工作经历
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>重庆智联云科有限公司｜中级测试工程师</h3>
 <span>2024.10 – 2026.09</span>
 </div>
@@ -56,7 +56,7 @@
 - 使用 Cursor、ChatGPT 辅助完成复杂用例拆解、日志解析、脚本片段编写，提升测试分析与脚本开发效率；
 - 负责预发验证、灰度上线、线上巡检，配合业务完成 UAT 验收，保障多轮版本平稳交付。
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>重庆尚猫科技有限公司｜测试工程师</h3>
 <span>2023.07 – 2024.09</span>
 </div>
@@ -70,7 +70,7 @@
 
 ## 项目经历
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>项目 1：供应链进销存 SaaS 管理平台｜中级测试工程师</h3>
 <span>2024.10 – 2026.09</span>
 </div>
@@ -97,7 +97,7 @@
 
 ---
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>项目 2：ETL 数据调度同步平台｜中级测试工程师</h3>
 <span>2024.12 – 2026.09</span>
 </div>
@@ -117,7 +117,7 @@
 
 ---
 
-<div style="display:flex;justify-content:space-between;">
+<div class="h3-between">
 <h3>项目 3：CRM 客户管理系统｜测试工程师</h3>
 <span>2023.07 – 2024.09</span>
 </div>

@@ -1,4 +1,6 @@
-## [查看PDF简历](https://static.pxemail.com/resume_1.0.2_scale67_margin6.pdf)
+## 查看PDF简历：
+- [V1.1.0](https://static.pxemail.com/resume_1.1.0_margin_8mm.pdf)
+- [V1.0.2](https://static.pxemail.com/resume_1.0.2_scale67_margin6.pdf)
 
 
 

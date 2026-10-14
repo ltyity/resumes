@@ -41,8 +41,13 @@
 ## 工作经历
 
 <div class="h3-between">
-<h3>重庆智联云科有限公司｜中级测试工程师</h3>
+<h3>重庆智联云科有限公司</h3>
 <span>2024.10 – 2026.09</span>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+<span>测试部&ensp;&ensp;软件测试工程师</span>
+<span>重庆</span>
 </div>
 
 负责 SaaS 进销存供应链及内部 ETL 数据调度平台测试，兼顾接口测试、自动化落地、并发与安全专项测试；使用 Python、Rust 开发多款测试辅助工具，依托 Linux 日志复现定位预发、线上偶现问题，输出性能问题证据，验证研发优化后的指标变化。
@@ -61,8 +66,13 @@
 - 负责预发验证、灰度上线、线上巡检，配合业务完成 UAT 验收，保障多轮版本平稳交付。
 
 <div class="h3-between">
-<h3>重庆尚猫科技有限公司｜测试工程师</h3>
+<h3>重庆尚猫科技有限公司</h3>
 <span>2023.07 – 2024.09</span>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+<span>测试部&ensp;&ensp;测试工程师</span>
+<span>重庆</span>
 </div>
 
 主要负责 ToB 客户管理 CRM 系统功能、接口测试，独立承担模块全流程测试工作，落地 UI 冒烟自动化，开展接口简单性能验证。
@@ -75,7 +85,7 @@
 ## 项目经历
 
 <div class="h3-between">
-<h3>项目 1：供应链进销存 SaaS 管理平台｜中级测试工程师</h3>
+<h3>项目 1：供应链进销存 SaaS 管理平台｜软件测试工程师</h3>
 <span>2024.10 – 2026.09</span>
 </div>
 
@@ -102,7 +112,7 @@
 ---
 
 <div class="h3-between">
-<h3>项目 2：ETL 数据调度同步平台｜中级测试工程师</h3>
+<h3>项目 2：ETL 数据调度同步平台｜软件测试工程师</h3>
 <span>2024.12 – 2026.09</span>
 </div>
 

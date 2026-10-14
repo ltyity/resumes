@@ -1,6 +1,7 @@
 @font-face {
     font-family: "SourceHanSansCN";
     src:
+        /* local("Microsoft YaHei"), */
         local("Source Han Sans CN"),
         local("SourceHanSansCN"),
         local("Noto Sans SC");

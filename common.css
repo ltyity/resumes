@@ -20,10 +20,10 @@ body {
     margin-bottom: 0;
 }
 
-.markdown-body {
+/* .markdown-body { */
     /* font-size: 14px; */
     /* line-height: 1.28; */
-}
+/* } */
 /* 然后就是对 h1 h2 h3 ul ol blockquote 基本元素的设置就可以了 */
 
 .markdown-body h1 {

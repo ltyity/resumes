@@ -18,9 +18,15 @@
 
         /* 屏幕预览：模拟A4纸效果 */
         .page-container {
-            width: 210mm;    /* A4宽 */
-            min-height: 594mm;/* 2页A4总高度 */
-            padding: 12mm;
+            --pad: 12mm;
+            --page-height: 297mm;
+            --content-height: calc(var(--page-height) - var(--pad) * 2);
+            --line1: calc(var(--pad) + var(--content-height));
+            --line2: calc(var(--line1) + var(--content-height));
+
+            width: 210mm;
+            min-height: calc(var(--page-height) * 2);
+            padding: var(--pad);
             margin: 2rem auto;
             background: white;
             box-shadow: 0 0 10px #ccc; /* 纸张阴影，方便区分 */
@@ -37,13 +43,11 @@
             text-align: center;
             pointer-events: none; /* 不影响文字选中复制 */
         }
-        /* 第1页底：297mm - padding */
         .page-container .line1 {
-            top: 285mm;
+            top: var(--line1);
         }
-        /* 第2页底：594mm - 3padding */
         .page-container .line2 {
-            top: 558mm;
+            top: var(--line2);
         }
 
     </style>

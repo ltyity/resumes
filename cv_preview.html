@@ -15,18 +15,55 @@
             background:#f1f3f5;
             padding:2px 4px;
         }
+
+        /* 屏幕预览：模拟A4纸效果 */
+        .page-container {
+            width: 210mm;    /* A4宽 */
+            min-height: 594mm;/* 2页A4总高度 */
+            padding: 12mm;
+            margin: 2rem auto;
+            background: white;
+            box-shadow: 0 0 10px #ccc; /* 纸张阴影，方便区分 */
+            box-sizing: border-box;
+            position: relative; /* 关键：作为绝对定位参照物 */
+        }
+        /* 共用分页参考线样式 */
+        .page-container .page-line {
+            position: absolute;
+            left: 3mm;
+            right: 3mm;
+            border-top: 3px dashed red;
+            color: red;
+            text-align: center;
+            pointer-events: none; /* 不影响文字选中复制 */
+        }
+        /* 第1页底：297mm - padding */
+        .page-container .line1 {
+            top: 285mm;
+        }
+        /* 第2页底：594mm - 3padding */
+        .page-container .line2 {
+            top: 558mm;
+        }
+
     </style>
 </head>
 <body>
-    <div id="avatar" style="float:right; margin:0 0 12px 16px;">
-    <!-- 头像：只限制最大宽高，不强制写死宽高，防止拉伸 -->
-    <img src="./assets/avatar_online_resume.jpg" alt="个人头像" 
-        style="max-width:88px; max-height:300px;
-                border-radius:5px;
-                object-fit:cover; /* 重点！裁剪填充，不会拉伸 */
-                display:block;">
+    <div class="page-container">
+        <!-- 头像放到A4白纸里面 -->
+        <div id="avatar" style="float:right; margin:0 0 12px 16px;">
+            <img src="./assets/avatar_online_resume.jpg" alt="个人头像" 
+                style="max-width:88px; max-height:300px;
+                        border-radius:5px;
+                        object-fit:cover;
+                        display:block;">
+        </div>
+        <!-- 分页参考线元素 -->
+        <div class="page-line line1"></div>
+        <div class="page-line line2"></div>
+        <div id="main" class="markdown-body"></div>
     </div>
-    <div id="main" class="markdown-body"></div>
+    
 
     <!-- 使用本地marked.js，不要写cdn地址 -->
     <script src="./marked.umd.js"></script>

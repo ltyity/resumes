@@ -9,8 +9,8 @@
 v1：
 - [预览完整简历](/cv_preview.html?md=test_engineer___site_full_show.md "完整简历")
 - [预览无照片简历](/cv_preview.html?md=test_engineer___site_full_show.md&avatar_hidden=1 "无照片简历")
-- [打印完整简历](/cv_preview.html?md=test_engineer___site_full_show.md "完整简历")
-- [打印无照片简历](/cv_preview.html?md=test_engineer___site_full_show.md&avatar_hidden=1 "无照片简历")
+- [打印完整简历](/cv_full.html?md=test_engineer___site_full_show.md "完整简历")
+- [打印无照片简历](/cv_full.html?md=test_engineer___site_full_show.md&avatar_hidden=1 "无照片简历")
 
 v2：
 - [预览完整简历](/cv_preview.html?md=test_engineer_v2___site_full_show.md "完整简历")
